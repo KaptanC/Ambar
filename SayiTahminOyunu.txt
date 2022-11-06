@@ -1,0 +1,20 @@
+Private Sub SayiTahminOyunu_Click()
+
+basla:
+
+Dim sayi As Integer
+sayi = InputBox("sayı giriniz:", "SAYI TAHMİN OYUNU")
+If sayi = 10 Then
+MsgBox ("tebrikler!")
+MsgBox ("Game Over!")
+
+Else
+MsgBox ("doğru sayıyı bulamadınız!")
+GoTo basla
+
+
+End If
+
+
+End Sub
+
